@@ -10,6 +10,7 @@ def login():
         empsalary = request.form.get("empsalary")
 
         # No database – just display the entered values----kk
+        #------Khushboo------
         return f"""
         <h2>Login Successful</h2>
         <p><b>Employee Name:</b> {empname}</p>
