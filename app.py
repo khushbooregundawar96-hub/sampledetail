@@ -11,6 +11,7 @@ def login():
         empname = request.form.get("empname")
         empid = request.form.get("empid")
         empsalary = request.form.get("empsalary")
+        #-----Prince------
 
         # No database – just display the entered values----kk
         #------Khushboo------
