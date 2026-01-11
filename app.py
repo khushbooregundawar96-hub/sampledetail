@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 
 @app.route("/", methods=["GET", "POST"])
+# Login route
 def login():
     if request.method == "POST":
         empname = request.form.get("empname")
