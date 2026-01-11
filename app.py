@@ -1,8 +1,6 @@
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
-# ----------mayuri-------------
-# ----------rudhu--------------
 
 @app.route("/", methods=["GET", "POST"])
 def login():
@@ -13,10 +11,8 @@ def login():
 
         # No database – just display the entered values----kk
         #------Khushboo------
-        #-----Gaurav------kkkk
+        #-----Gaurav------
         #-----Anand-------
-        #------Harish-----
-        #------Rajen-----
         return f"""
         <h2>Login Successful</h2>
         <p><b>Employee Name:</b> {empname}</p>
