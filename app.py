@@ -26,6 +26,7 @@ def login():
         """
 
     return render_template("login.html")
+    #-----Aditi------
 
 if __name__ == "__main__":
     app.run(debug=True)
